@@ -22,3 +22,8 @@
     padding: 5px !important; /* Some padding */
     width: 60px !important; /* Set a small width */
   }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:black !important;
+    opacity: 1; /* Firefox */
+  }
